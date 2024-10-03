@@ -1,0 +1,58 @@
+﻿body {
+}
+
+.Container_Footer1 {
+    background-color: black;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    text-align:left;
+    padding:50px;
+    height:350px;
+    line-height:35px;
+    font-weight:bold;
+   
+}
+
+    .Container_Footer1 a {
+        color: white;
+       
+    }
+
+.menu_footer_hover {
+    
+    transition: all .2s ease;
+}
+.menu_footer_hover:hover {
+    color:green;
+    transition: all .2s ease;
+}
+
+.Container_Footer
+{
+/*    height:100%;*/
+}
+.Container_Footer2 {
+    display: flex;
+    background-color: #151720;
+    color: white;
+    padding:30px;
+   
+    text-align:left;
+    font-size:17px;
+  
+}
+    .Container_Footer2 img
+    {
+        width:40%;
+
+    }
+    .image_green {
+        color: transparent;
+        cursor: context-menu;
+        font-size: 15px;
+        border-radius: 10px;
+        background-color: greenyellow;
+        width: 50px;
+        height: 100px;
+    }
